@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+.App {
+  text-align: center;
+}
+.buttonHeader{
+  width: 32px !important;
+  height: 32px !important;
+  padding: 0.1rem 0.2rem !important;
+  color: #000000 !important;
+}
+.fa-bell:before {
+  content: "\f0f3";
+}
+.logo {
+  color: #7cb1e1 !important;
+}
+img, svg {
+  vertical-align: middle;
+}
+img {
+  width: 40px;
+  aspect-ratio: auto 40 / 40;
+  height: 40px;
+}
+.bd-cheatsheet, .bg-light {
+  background-color: #F0F4F9 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.bd-cheatsheet, .bd-cheatsheet section, .bd-cheatsheet article {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 4fr;
+  grid-column: 1 / span 2;
+  grid-template-rows: auto;
+}
+.bd-cheatsheet-width100 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 4fr;
+  grid-column: 1 / span 3;
+  grid-template-rows: auto;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.bd-cheatsheet section, .bd-cheatsheet section > h2 {
+  top: 2rem;
+  scroll-margin-top: 2rem;
+}
+.bgBlue2 {
+  background-color: #4F6AAE !important;
+}
+.bi-plus-circle::before {
+  content: "\f4fa";
+}
+.bgGreen {
+  background-color: #1F746A !important;
+}
+.bd-aside {
+  background-color: #FFFFFF !important;
+  grid-area: 1 / 4;
+  scroll-margin-top: 4rem;
+}
+.container-legal-doc {
+  width: 100%;
+  display: grid;
+  _gap: 1rem;
+  grid-template-columns: 1fr 4fr 1fr 0.4fr;
+  grid-template-rows: auto;
+}
+.btn.active {
+  background-color: #7168AB;
+  color: #ffffff;
+}
+.btn-border {
+  border: solid 1px #7168AB !important;
+}
+.h-fitContent {
+  height: fit-content;
+}
+#plus-btn:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+#border-no {
+  border: none;
+  outline: none;
+}
+#border-no::placeholder {
+  color: #000000;
+}
+.marg-l-5 {
+  margin-left: 5px !important;
+}
+.menu {
+  transform: translateX(1%);
+  transition: all 0.5s ease 0s;
+}
+.menu.active {
+  transform: translateX(0);
+}
+.rotate {
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
