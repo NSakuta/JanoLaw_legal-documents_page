@@ -61,7 +61,7 @@ const SideBar = (props) => {
         }
       </aside>
       :
-       <aside className="menu closed bd-aside sticky-xl-top shadow mb-3 mb-xl-5 px-3 pt-5">
+       <aside className="menu closed bd-aside sticky-xl-top mb-3 mb-xl-5 px-3 pt-5">
        <div class="d-flex justify-content-between">
            <div>
               <Button onClick={onClick} 
